@@ -1,5 +1,6 @@
 local id = game.gameId
 
+
 if id == 4528012106 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Eternal%20Rarities"))()
 else
