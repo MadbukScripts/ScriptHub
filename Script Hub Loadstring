@@ -1,6 +1,5 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
-
 function correctHwid()
     Rayfield:Destroy()
     local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
