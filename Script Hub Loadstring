@@ -1,5 +1,120 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+function correctHwid()
+    Rayfield:Destroy()
+    local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+local Window = Rayfield:CreateWindow({
+    Name = "Eternal Rarities",
+    LoadingTitle = "Madbuk Scripts",
+    LoadingSubtitle = "by Madbuk Scripts",
+    ConfigurationSaving = {
+       Enabled = true,
+       FolderName = "MadbukHub", -- Create a custom folder for your hub/game
+       FileName = "MadbukHub"
+    },
+    Discord = {
+       Enabled = true,
+       Invite = "madbuk",
+       RememberJoins = false -- Set this to false to make them join the discord every time they load it up
+    },
+    KeySystem = true, -- Set this to true to use our key system
+    KeySettings = {
+       Title = "Premium Key Check",
+       Subtitle = "Key System",
+       Note = "Key in the premium-scripts channel",
+       FileName = "MadbukKey", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+       SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+       Key = {"MadbukOnTop"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+    }
+ })
+
+
+ local Tab = Window:CreateTab("Games", 4483362458)
+
+ local Section = Tab:CreateSection("Games List")
+
+ local Label = Tab:CreateLabel("You are a premium user, Welcome "..game.Players.LocalPlayer.Name)
+
+ local Label1 = Tab:CreateLabel("placeholder")
+
 if game.gameId == 4528012106 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Eternal%20Rarities"))()
+    Label1:Set("Game is supported")
 else
-    print("not supported")
+    Label1:Set("Game not supported")
+end
+
+ local Button = Tab:CreateButton({
+    Name = "Load script for this game",
+    Callback = function()
+        if game.gameId == 4528012106 then
+            loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Eternal%20Rarities"))()
+        end
+    end,
+ })
+end
+
+function notHwid()
+    local Window = Rayfield:CreateWindow({
+        Name = "Eternal Rarities",
+    LoadingTitle = "Madbuk Scripts",
+    LoadingSubtitle = "by Madbuk Scripts",
+    ConfigurationSaving = {
+        Enabled = false,
+        FolderName = "MadbukHub", -- Create a custom folder for your hub/game
+        FileName = "MadbukHub"
+     },
+        Discord = {
+        Enabled = false,
+        Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+        RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+        },
+        KeySystem = false, -- Set this to true to use our key system
+        KeySettings = {
+        Title = "Untitled",
+        Subtitle = "Key System",
+        Note = "No method of obtaining the key is provided",
+        FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
+        SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+        GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
+        Key = {"Hello"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+        }
+    })
+
+    local Tab = Window:CreateTab("Not Premium", 4483362458)
+
+    local Section = Tab:CreateSection("Not Premium")
+
+    local Label = Tab:CreateLabel("You are not a premium user.")
+
+    local Label = Tab:CreateLabel("If you are then DM me your hwid ID so i can whitelist you.")
+
+    local Label = Tab:CreateLabel("To Find you hwid ID simply click the button below and then send a screenshot of the message")
+
+    local hwidlabel = Tab:CreateLabel("hwid: Not Clicked")
+
+        local Button = Tab:CreateButton({
+            Name = "Check hwid",
+            Callback = function()
+                hwidlabel:Set("hwid: "..game:GetService("RbxAnalyticsService"):GetClientId())
+            end,
+         })
+
+    
+
+
+
+
+end
+
+
+local whitelist = loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/hwidlist.lua"))()
+local hwid = game:GetService("RbxAnalyticsService"):GetClientId()
+
+for i,v in next, whitelist do
+    if hwid == v then
+        correctHwid()
+    elseif hwid ~= v then
+        notHwid()
+    end
 end
