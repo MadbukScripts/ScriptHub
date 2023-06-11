@@ -4,7 +4,7 @@ function correctHwid()
     Rayfield:Destroy()
     local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 local Window = Rayfield:CreateWindow({
-    Name = "Eternal Rarities",
+    Name = "Premium Script Hub",
     LoadingTitle = "Madbuk Scripts",
     LoadingSubtitle = "by Madbuk Scripts",
     ConfigurationSaving = {
@@ -38,25 +38,31 @@ local Window = Rayfield:CreateWindow({
 
  local Label1 = Tab:CreateLabel("placeholder")
 
-if game.gameId == 4528012106 then
-    Label1:Set("Game is supported")
-else
-    Label1:Set("Game not supported")
-end
 
- local Button = Tab:CreateButton({
-    Name = "Load script for this game",
+
+
+
+ local Button1 = Tab:CreateButton({
+    Name = "Load script for "..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name,
     Callback = function()
-        if game.gameId == 4528012106 then
+        if game.PlaceId == 12945111724 then
             loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Eternal%20Rarities"))()
         end
     end,
  })
+
+ if game.PlaceId == 12945111724 then
+    Label1:Set(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name.." is supported")
+else
+    Label1:Set("This game: ("..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name..") is not supported")
+    Button1:Set("Game Not Supported")
+end
+
 end
 
 function notHwid()
     local Window = Rayfield:CreateWindow({
-        Name = "Eternal Rarities",
+        Name = "Premium Script Hub",
     LoadingTitle = "Madbuk Scripts",
     LoadingSubtitle = "by Madbuk Scripts",
     ConfigurationSaving = {
