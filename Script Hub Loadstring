@@ -1,8 +1,6 @@
 local id = game.gameId
 
-print(tonumber(id))
-
-if id == 12945111724 then
+if id == 4528012106 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Eternal%20Rarities"))()
 else
     print("not supported")
