@@ -2,5 +2,27 @@ if game.PlaceId == 11402943018 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/UUT"))()
 elseif game.PlaceId == 12945111724 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/ER"))()
+elseif game.PlaceId == 11713882653 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Cookie%20Clicker.lua"))()
+elseif game.PlaceId == 12945702551 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Endless%20Luck.lua"))()
+elseif game.PlaceId == 12819767752 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Eternity%20Cubes.lua"))()
+elseif game.PlaceId == 13372766854 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Exclusive%20Rarities.lua"))()
+elseif game.PlaceId == 13249403986 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Infinite%20Multipliers.lua"))()
+elseif game.PlaceId == 13376216053 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Rarity%20Heaven.lua"))()
+elseif game.PlaceId == 13205133454 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Stat%20factory%20sim.lua"))()
+elseif game.PlaceId == 12215278065 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Toy%20SoldierZ.lua"))()
+elseif game.PlaceId == 11708967881 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Yeet%20A%20Friend.lua"))()
+elseif game.PlaceId == 12992876175 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20inf%20item%20sim.lua"))()
+elseif game.PlaceId == 12848696569 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20walking%20inc.lua"))()
 else game.Players.LocalPlayer:Kick("oof, this game is not supported!")
 end
