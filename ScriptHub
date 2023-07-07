@@ -1,6 +1,6 @@
 if game.PlaceId == 11402943018 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/UUT")()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/UUT"))()
 elseif game.PlaceId == 12945111724 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/ER")()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/ER"))()
 else game.Players.LocalPlayer:Kick("oof, this game is not supported!")
 end
