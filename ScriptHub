@@ -3,7 +3,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptH
 elseif game.PlaceId == 12945111724 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/ER"))()
 elseif game.PlaceId == 12794951887 then
-loadstring(game:HttpGet("https://github.com/MadbukScripts/ScriptHub/blob/main/obfuscated%20BSG2.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/obfuscated%20BSG2.lua"))()
 elseif game.PlaceId == 11713882653 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Cookie%20Clicker.lua"))()
 elseif game.PlaceId == 12945702551 then
