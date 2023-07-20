@@ -6,6 +6,8 @@ elseif game.PlaceId == 12794951887 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/obfuscated%20BSG2.lua"))()
 elseif game.PlaceId == 11713882653 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Cookie%20Clicker.lua"))()
+elseif game.PlaceId == 12578778816 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Billionaire%20simulator%202.lua"))()
 elseif game.PlaceId == 12945702551 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Endless%20Luck.lua"))()
 elseif game.PlaceId == 12819767752 then
