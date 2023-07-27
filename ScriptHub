@@ -14,6 +14,8 @@ elseif game.PlaceId == 12945702551 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Endless%20Luck.lua"))()
 elseif game.PlaceId == 12819767752 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Eternity%20Cubes.lua"))()
+elseif game.PlaceId == 12878201066 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Military%20Idle%20Clicker.lua"))()
 elseif game.PlaceId == 13372766854 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Exclusive%20Rarities.lua"))()
 elseif game.PlaceId == 13249403986 then
