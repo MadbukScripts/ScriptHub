@@ -4,6 +4,10 @@ elseif game.PlaceId == 12945111724 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/ER"))()
 elseif game.PlaceId == 11430498851 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Building%20towers%20to%20fly%20farther.lua"))()
+elseif game.PlaceId == 14185839068 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Building%20towers%20to%20fly%20farther.lua"))()
+elseif game.PlaceId == 14175228555 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Building%20towers%20to%20fly%20farther.lua"))()
 elseif game.PlaceId == 11658616007 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Tree%20of%20life.lua"))()
 elseif game.PlaceId == 12794951887 then
