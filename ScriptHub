@@ -36,5 +36,5 @@ elseif game.PlaceId == 12992876175 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20inf%20item%20sim.lua"))()
 elseif game.PlaceId == 12848696569 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20walking%20inc.lua"))()
-else game.Players.LocalPlayer:Kick("oof, this game is not supported!")
+else print("This Game Is Not Supported")
 end
