@@ -2,6 +2,8 @@ if game.PlaceId == 11402943018 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/UUT"))()
 elseif game.PlaceId == 12945111724 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/ER"))()
+elseif game.PlaceId == 12667599992 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Anime%20merge%20sim.lua"))()
 elseif game.PlaceId == 11430498851 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/MadbukScripts/ScriptHub/main/Obfuscated%20Building%20towers%20to%20fly%20farther.lua"))()
 elseif game.PlaceId == 14185839068 then
