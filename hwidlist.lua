@@ -12,6 +12,7 @@ return {
     "F052DBC1-5244-4131-A63F-62CCC4F45965",
     "BAE87E19-947A-4DC1-8EB7-4E0A315A58A7",
     "5520d473-a20e-4fb7-80b7-00b66ae14fb6",
-    "7833f835-7df5-47df-abaf-80deed68ddab"
+    "7833f835-7df5-47df-abaf-80deed68ddab",
+    "888eaf33-8d95-4ffd-a4a7-fbc3b32455a2"
     }
 
